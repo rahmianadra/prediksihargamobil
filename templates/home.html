@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+   <body>
+   <h2><center>Prediksi Harga Mobil Bekas Berdasarkan Tahun Keluar</center></h2>
+    <center>
+    <div class="div2">
+      <form action = "/prediksi/" method = "POST">
+         <p> Masukan tahun keluaran mobil <input type = "text" name = "Tahun" /> <input type = "submit" value = "ok" /> </p>
+      </form>
+    
+   <p>Prediksi harga mobil anda adalah: {{ result }}</p>
+   </center>
+   </div>
+   </body>
+<style>
+    .div2 {
+     width: 400px;
+     height: 100px;  
+     padding: 50px;
+     border: 1px solid black;
+   }
+   </style>
+</html>
